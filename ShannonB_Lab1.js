@@ -1,3 +1,7 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+     <div id="chart_div">
 google.charts.load('current', {'packages':['gantt']});
     google.charts.setOnLoadCallback(drawChart);
 
@@ -32,3 +36,10 @@ google.charts.load('current', {'packages':['gantt']});
 
       chart.draw(data, options);
     }
+    </script>
+   </head>
+   <body>
+        <div id="chart_div"></div>
+   </body>
+   </html>
+            
